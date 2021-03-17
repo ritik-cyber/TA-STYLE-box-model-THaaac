@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                text-align: center;
+            }
+            #container{
+                margin-left: 500px;
+                
+            }
+            .box{
+                width: 100px;
+                height: 100px;
+                background-color: yellowgreen;
+                border: 13px solid lightblue;
+                outline: 2px solid black;
+                outline: 5px solid mediumorchid;
+            }
+            .dot{
+                height: 15px;
+                width: 15px;
+                border-radius: 50%;
+                background-color:  yellowgreen;
+                display: inline-block;
+                margin-top: 20px;
+            
+            }
+            .dot1{
+                height: 15px;
+                width: 15px;
+                border-radius: 50%;
+                background-color:  lightblue;
+                display: inline-block;
+                margin-top: 20px;
+                margin-left: 55px;
+            }
+            .dot2{
+                height: 15px;
+                width: 15px;
+                border-radius: 50%;
+                background-color:  black;
+                display: inline-block;
+                margin-top: 20px;
+                margin-left: 60px;
+            }
+            .dot3{
+                height: 15px;
+                width: 15px;
+                border-radius: 50%;
+                background-color:  orangered;
+                display: inline-block;
+                margin-top: 20px; 
+                margin-left: 60px;
+            }
+            p{
+                margin-left: 20px;
+                margin-top: -3px;
+            }
+            .border{
+                width: 200px;
+                height: 100px;
+                background-color: silver;
+                margin: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The Box Model, Box-sizing & Box-shadow</h1>
+        <div id = "container">
+            <hr>
+            <h2>Exercise 1</h2>
+            <div class = "box"></div>
+            <span class = "dot"><p>content</p></span>
+            <span class = "dot1"><p>padding</p></span>
+            <span class = "dot2"><p>border</p></span>
+            <span class = "dot3"><p>Margin</p></span>
+            <hr>
+        </div>
+        <h2>Exercise 2</h2>
+        <strong>No Border on these boxex.</strong>
+        <div class = "border">
+            <div class = "border"></div>
+            <div></div>
+            <div></div>
+        </div>
+    </body>
+</html>
